@@ -1,0 +1,4 @@
+dependencies {
+    implementation project(":messaging-api")
+    implementation 'org.springframework.boot:spring-boot-starter'
+}

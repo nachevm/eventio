@@ -1,0 +1,26 @@
+rootProject.name = 'eventio'
+
+include ':application'
+
+include ':sport-event-domain'
+project(':sport-event-domain').projectDir = file('sport-event/domain')
+include ':sport-event-api'
+project(':sport-event-api').projectDir = file('sport-event/api')
+include ':sport-event-rest-api'
+project(':sport-event-rest-api').projectDir = file('sport-event/rest-api')
+include ':sport-event-messages'
+project(':sport-event-messages').projectDir = file('sport-event/messages')
+
+include ':score-api'
+project(':score-api').projectDir = file('score/api')
+include ':score-rest-adapter'
+project(':score-rest-adapter').projectDir = file('score/rest-adapter')
+include ':score-in-process-adapter'
+project(':score-in-process-adapter').projectDir = file('score/in-process-adapter')
+
+include ':messaging-api'
+project(':messaging-api').projectDir = file('messaging/api')
+include ':messaging-rabbitmq-adapter'
+project(':messaging-rabbitmq-adapter').projectDir = file('messaging/rabbitmq-adapter')
+include ':messaging-in-process-adapter'
+project(':messaging-in-process-adapter').projectDir = file('messaging/in-process-adapter')

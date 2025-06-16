@@ -1,0 +1,14 @@
+plugins {
+    id "org.springframework.boot"
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
+    implementation 'org.springframework:spring-aspects'
+    implementation project(":sport-event-domain")
+    implementation project(":sport-event-rest-api")
+    implementation project(":score-rest-adapter")
+    implementation project(":score-in-process-adapter")
+    implementation project(":messaging-rabbitmq-adapter")
+    implementation project(":messaging-in-process-adapter")
+}

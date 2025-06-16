@@ -1,0 +1,7 @@
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter'
+    implementation project(":sport-event-api")
+    implementation project(":sport-event-messages")
+    implementation project(":score-api")
+    implementation project(":messaging-api")
+}

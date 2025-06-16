@@ -1,0 +1,6 @@
+dependencies {
+    implementation project(":messaging-api")
+    implementation "org.springframework.boot:spring-boot-starter-amqp"
+    implementation "com.fasterxml.jackson.datatype:jackson-datatype-jdk8"
+    implementation "com.fasterxml.jackson.datatype:jackson-datatype-jsr310"
+}
