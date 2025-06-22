@@ -74,5 +74,5 @@ Add Swagger/OpenAPI documentation.
 
 ## AI Usage Disclosure
 
-Jetbrains AI Assistant was used for autocomplete, as a Google substitute and for some docs and some unit tests
+Jetbrains AI Assistant with Claude 4 was used for autocomplete, as a Google substitute and for some docs and some unit tests
 generation.
